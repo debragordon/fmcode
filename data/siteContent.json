@@ -1,0 +1,80 @@
+{
+    "services": {
+        "service0": {
+            "title": "Service 1",
+            "detail": "Something here"
+        },
+        "service1": {
+            "title": "Service 2",
+            "detail": "Something here"
+        },
+        "service2": {
+            "title": "Service 3",
+            "detail": "Something here"
+        },
+        "service3": {
+            "title": "Service 4",
+            "detail": "Something here"
+        },
+        "service4": {
+            "title": "Service 5",
+            "detail": "Something here"
+        }
+    },
+    "images": {
+        "image0": {
+            "image": "http://www.nashville-songdemo.com/images/pic_frank_main.jpg",
+            "detail": "Something here"
+        },
+        "image1": {
+            "image": "http://www.nashville-songdemo.com/images/pic_frank_main.jpg",
+            "detail": "Something here"
+        },
+        "image2": {
+            "image": "http://www.nashville-songdemo.com/images/pic_frank_main.jpg",
+            "detail": "Something here"
+        },
+        "image3": {
+            "image": "http://www.nashville-songdemo.com/images/pic_frank_main.jpg",
+            "detail": "Something here"
+        },
+        "image4": {
+            "image": "http://www.nashville-songdemo.com/images/pic_frank_main.jpg",
+            "detail": "Something here"
+        },
+        "image5": {
+            "image": "http://www.nashville-songdemo.com/images/pic_frank_main.jpg",
+            "detail": "Something here"
+        }
+    },
+    "songs": {
+        "song0": {
+            "song": "song-link-here-from-soundcloud",
+            "title": "Detail Here",
+        },
+        "song1": {
+            "song": "song-link-here-from-soundcloud",
+            "title": "Detail Here",
+        },
+        "song2": {
+            "song": "song-link-here-from-soundcloud",
+            "title": "Detail Here",
+        },
+        "song3": {
+            "song": "song-link-here-from-soundcloud",
+            "title": "Detail Here",
+        },
+        "song4": {
+            "song": "song-link-here-from-soundcloud",
+            "title": "Detail Here",
+        },
+        "song5": {
+            "song": "song-link-here-from-soundcloud",
+            "title": "Detail Here",
+        },
+        "song6": {
+            "song": "song-link-here-from-soundcloud",
+            "title": "Detail Here",
+        }
+    }
+}
