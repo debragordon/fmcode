@@ -1,5 +1,24 @@
 <div class="container">
   <div class="row">
-    <div>About/Home/Main Content Here</div>
+    <div class="text-left col-sm-9">
+      <div class="row">
+        <div class="col-sm-9">
+          <h3>So, you’ve written a song.</h3>
+        </div>
+        <div class="col-sm-12">
+          <p>It’s a pretty good one, too. Now you need a professional sounding recording of your tune, so you can pitch it to Luke Bryan or Carrie Underwood, or maybe just play it for your family and friends. But you’ve checked out the prices at the many song demo companies online, and found that prices range from $300 for a basic demo, to $700 or more for full band demos. And your money’s a little tight right now. That’s where I come in.</p>
+          <p>I’ve spent my life playing music and writing songs, and have backed up some of the biggest names in country music. I play guitar, fiddle, banjo, mandolin, keyboards, and just about any other instrument you can name. Because of this, I can record whole band tracks in my studio, and do it for a lower price than my competition. I’ve been in business for 10 years, and have recorded over 2000 demos. I’ve had my own songs recorded by country superstar Gretchen Wilson and dozens of indie artists. And I have a special talent for making a great recording from even the roughest of work tapes.</p>
+          <p>Do you just write lyrics? No problem! Unlike other services, I don’t charge extra for composing original music just for your words. And, as I work “for hire”, you own the finished song. So don’t send your creation to some “song factory” to be crammed onto a session with dozens of others. My promise is that I will put the same care, skill and effort into arranging your tune as I do my own songs.</p>
+          <p>My demo singers, Debra Gordon and David Ward, are two of the top vocalists in Nashville, and they will bring your song to life with power, emotion, and soaring harmonies.</p>
+        </div>
+      </div>
+    </div>
+    <div class="text-left col-sm-3">
+      <h5>Testimonials</h5>
+      <div ng-repeat="testimonial in testimonials">
+        <p>{{testimonial.detail}}</p>
+        <p class="note">{{testimonial.songwriter}}</p>
+      </div>
+    </div>
   </div>
 </div>

@@ -1,80 +1,44 @@
 {
-    "services": {
-        "service0": {
-            "title": "Service 1",
-            "detail": "Something here"
+    "testimonials": {
+        "testimonial0": {
+            "detail": "Frank Michels has produced demos for over 70 of my songs. He is an unbelievablemusician, playing several instruments, his guitar skill is amazing. He has provided vocals by Debra Gordon and David Ward both of whom are as talented as any Nashville recording artist. I appreciate Frank's professional arrangements and the fact that he includes at no extra cost the instrument tracks that I am able to record my own voice to. I am a retired FBI Agent and Chief of a Major Sheriff's Office with over 40 years of experience. Frank has been honest, fair, and has provided high quality products at reasonable cost. I highly recommend Frank's Demo Service",
+            "songwriter": "K. Thornton"
         },
-        "service1": {
-            "title": "Service 2",
-            "detail": "Something here"
+        "testimonial1": {
+            "detail": "Frank's demos are nothing short of amazing. His ability to work in a wide range of styles, with varied instrumentation and great vocals at a reasonable price makes him a true Nashville treasure.",
+            "songwriter": "R. Simbeck (writer for Bob Kingsley’s Country Top 40)"
         },
-        "service2": {
-            "title": "Service 3",
-            "detail": "Something here"
+        "testimonial2": {
+            "detail": "Frank, this is just what I wanted on 'Thank You, Soldiers'. Wonderful demo and very beautiful melody you did as well. Thank you so much!",
+            "songwriter": "B. Hosey"
         },
-        "service3": {
-            "title": "Service 4",
-            "detail": "Something here"
+        "testimonial3": {
+            "detail": "Lovely work, just makes you smile when you listen. Thank You!",
+            "songwriter": " D. McClain"
         },
-        "service4": {
-            "title": "Service 5",
-            "detail": "Something here"
-        }
-    },
-    "images": {
-        "image0": {
-            "image": "http://www.nashville-songdemo.com/images/pic_frank_main.jpg",
-            "detail": "Something here"
+        "testimonial4": {
+            "detail": "Thank you Frank, your ability to hear the song the way I do just blows me away, your talent is undeniable! And please tell Debra thanks as well, I am fortunate to have you both on the songs.",
+            "songwriter": "S. Hodge"
         },
-        "image1": {
-            "image": "http://www.nashville-songdemo.com/images/pic_frank_main.jpg",
-            "detail": "Something here"
+        "testimonial5": {
+            "detail": "Wow Frank, I love the song! I like the ending a lot and especially all of the small accents and embellishments in verse two. Great work and thanks again!",
+            "songwriter": "J. Ulm"
         },
-        "image2": {
-            "image": "http://www.nashville-songdemo.com/images/pic_frank_main.jpg",
-            "detail": "Something here"
+        "testimonial6": {
+            "detail": "Thanks for the MP3 ... Thanks for a very good demo. You really worked some magic to take the crude effort I sent you and made it sound professional!!",
+            "songwriter": "C. Welch"
         },
-        "image3": {
-            "image": "http://www.nashville-songdemo.com/images/pic_frank_main.jpg",
-            "detail": "Something here"
+        "testimonial7": {
+            "detail": "I just wanted to let you know that I am extremely impressed with your work. I wish I had found you a year ago-- It would have saved me a lot of time, money and stress.",
+            "songwriter": "R. Williams"
         },
-        "image4": {
-            "image": "http://www.nashville-songdemo.com/images/pic_frank_main.jpg",
-            "detail": "Something here"
+        "testimonial8": {
+            "detail": "Love it!! Tell Debra she has the best country voice out today and I mean that. Her phrasing is always spot on!! Frank - your guitar is perfect and thank you for your arrangement, especially the key change.",
+            "songwriter": "S. Owen"
         },
-        "image5": {
-            "image": "http://www.nashville-songdemo.com/images/pic_frank_main.jpg",
-            "detail": "Something here"
-        }
-    },
-    "songs": {
-        "song0": {
-            "song": "song-link-here-from-soundcloud",
-            "title": "Detail Here",
-        },
-        "song1": {
-            "song": "song-link-here-from-soundcloud",
-            "title": "Detail Here",
-        },
-        "song2": {
-            "song": "song-link-here-from-soundcloud",
-            "title": "Detail Here",
-        },
-        "song3": {
-            "song": "song-link-here-from-soundcloud",
-            "title": "Detail Here",
-        },
-        "song4": {
-            "song": "song-link-here-from-soundcloud",
-            "title": "Detail Here",
-        },
-        "song5": {
-            "song": "song-link-here-from-soundcloud",
-            "title": "Detail Here",
-        },
-        "song6": {
-            "song": "song-link-here-from-soundcloud",
-            "title": "Detail Here",
+        "testimonial9": {
+            "detail": "I absolutely love it! It's exactly the style and attitude I was looking for. Awesome music and vocals! I can't believe how quickly I got my demo. I will definitely be sending more lyrics soon.",
+            "songwriter": "C. Little"
         }
     }
 }

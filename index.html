@@ -10,43 +10,59 @@
   <link href="styles/cover.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="styles/main.css">
 </head>
-<body ng-app="FMNashDemo" ng-cloak>
+<body ng-app="FMNashDemo" ng-cloak class="image-fluid home" ng-controller="BodyCtrl" ng-class="{home: $route.current.activetab == 'home'}">
   <div>
-    <nav class="navbar">
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
+
         <div class="row">
-          <div class="col-sm-12 text-center topper">
-            <a ng-href="#/about" title=""><div class="none">Frank Michels</div></a>
+          <div class="col-4">
+            <a href="#/home"><img src="/img/fm-logo.png" alt="" class="siteLogo"></a>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-3 text-center">
-            <a ng-href="#/samples" class="btn btn-info btn-block btn-lg">Samples</a>
+          <div class="col-4">
+            <!-- NOTHING HERE -->
           </div>
-          <div class="col-sm-3 text-center">
-            <a ng-href="#/services" class="btn btn-info btn-block btn-lg">Services</a>
-          </div>
-          <div class="col-sm-3 text-center">
-            <a ng-href="#/gallery" class="btn btn-info btn-block btn-lg">Gallery</a>
-          </div>
-          <div class="col-sm-3 text-center">
-            <a ng-href="#/contact" class="btn btn-info btn-block btn-lg">Contact</a>
+          <div class="col-4">
+            <div class="dropdown .dropdown-menu-right">
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Producer
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a href="#/about">Learn about Frank</a></li>
+                <li><a href="#/gallery">View Gallery</a></li>
+              </ul>
+            </div>
+            <div class="dropdown .dropdown-menu-right">
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Services
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a href="#/services">Browse Services</a></li>
+                <li><a href="#/samples">Listen to Samples</a></li>
+              </ul>
+            </div>
+            <div class="dropdown .dropdown-menu-right">
+              <a href="mailto:michels8@comcast.net" class="btn btn-default btn-block">Contact</a>
+            </div>
           </div>
         </div>
       </div>
     </nav>
   </div>
 
-  <div class="row">
-    <div class="col-xs-12" ng-view></div>
+  <div class="row viewPort">
+    <div class="col-xs-12" ng-view>
+      <!-- back the backgroud guitar only show on the landing.html view -->
+    </div>
   </div>
 
-  <div class="topper">
-    <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
-    <a href="#" target="_blank"><i class="fa fa-facebook-official"></i></a>
-    <a href="#" target="_blank"><i class="fa fa-linkedin-square"></i></a>
-    <p class="note footer"><a href="http://www.nashville-songdemo.com/">&copy;</a>2017 <a href="/#/home">Frank Michels.</a> <a href="http://www.debragordon.tech" target="_blank">Developed by SIMON.</a></p>
-  </div>
+  <footer class="footer">
+    <div class="container">
+      <p class="text-muted note"><a href="http://www.nashville-songdemo.com/">&copy;</a>2017 Frank Michels.  |  Connect on facebook <a href="http://www.facebook.com/NashvilleSongDemo/" target="_blank"><i class="fa fa-facebook-official"></i></a>  |  Developed by <a href="http://www.debragordon.tech" target="_blank">SIMON.</a></p>
+    </div>
+  </footer>
 
 <!-- JS files -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -54,14 +70,17 @@
 
   <script type="text/javascript" src="lib/node_modules/jquery/dist/jquery.min.js"></script>
   <script type="text/javascript" src="lib/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="lib/node_modules/angular/angular.min.js" type="text/javascript" charset="utf-8"></script>
-  <script src="lib/node_modules/angular-route/angular-route.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.js"></script>
   <script type="text/javascript" src="/javascripts/app.js"></script>
   <script type="text/javascript" src="/javascripts/AppConfig.js"></script>
   <script src="/javascripts/ie10-viewport-bug-workaround.js"></script>
 
 
 <!-- CONTROLLERS -->
+  <script src="/javascripts/controllers/BodyCtrl.js" type="text/javascript" charset="utf-8" async defer></script>
+
+  <script src="/javascripts/controllers/LandingCtrl.js" type="text/javascript" charset="utf-8" async defer></script>
   <script src="/javascripts/controllers/AboutCtrl.js" type="text/javascript" charset="utf-8" async defer></script>
   <script src="/javascripts/controllers/ContactCtrl.js" type="text/javascript" charset="utf-8" async defer></script>
   <script src="/javascripts/controllers/GalleryCtrl.js" type="text/javascript" charset="utf-8" async defer></script>
