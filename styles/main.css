@@ -15,170 +15,9 @@ a {
 ul {
   list-style: none; }
 
-/********************
-Landing/Home View
-********************/
-.home {
-  background-image: url("/img/home-nowords.png");
-  width: 100%;
-  min-height: 100%;
-  margin-bottom: -100px;
-  padding-left: -10px;
-  padding-right: -10px;
-  margin-top: -80px; }
-
-.homeCover {
-  width: 100%;
-  height: 100%;
-  margin-bottom: 20px; }
-
-/********************
-CLASSES
-********************/
-.circleFrank {
-  border-radius: 100%;
-  width: 30%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
-  margin-right: 20px;
-  margin-top: 10px; }
-
-.circleSinger {
-  border-radius: 100%;
-  width: 15%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
-  margin-left: 20px; }
-
 .viewPort {
   padding-top: 100px;
   margin: 3px; }
-
-.inner {
-  padding: 5px; }
-
-.dropdown {
-  display: inline-block; }
-
-.lines {
-  line-height: 1.5em; }
-
-.siteLogo {
-  width: 30%;
-  margin-top: 10px; }
-
-.site-wrapper {
-  box-shadow: inset 0 0 100px transparent; }
-
-.starter-template {
-  padding: 40px 15px;
-  text-align: center; }
-
-.debra {
-  border-radius: 50%;
-  width: 40%;
-  height: 40%;
-  box-shadow: 0px 0px 20px #0f0000;
-  margin-bottom: 20px; }
-
-.yellow {
-  color: #ec971f; }
-
-.small {
-  max-width: 70px; }
-
-.note {
-  font-size: .75em; }
-
-.alignTopServices {
-  margin-top: 10px; }
-
-.note2 {
-  font-size: .6em; }
-
-.topper {
-  margin-top: 30px;
-  margin-bottom: 10px; }
-
-.footer {
-  margin-top: 10px; }
-
-.mb-0 a {
-  color: black; }
-
-.price {
-  font-family: Impact, Charcoal, sans-serif;
-  background-color: #f60;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 10px;
-  border: 1px solid #f30;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-  margin-right: -25px;
-  margin-left: 25px;
-  margin-top: -40px; }
-
-.interested {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-  margin-right: 25px;
-  margin-left: -25px; }
-
-.bottomMarg {
-  margin-bottom: 20px; }
-
-.bottomMarg2 {
-  margin-bottom: 40px; }
-
-.none {
-  text-decoration: none;
-  /* no underline */
-  color: #ffa31a;
-  font-size: 1.25em; }
-
-.space {
-  margin: 0px 0px 5px 0px;
-  font-size: 1.2em;
-  text-align: center; }
-
-.somePad2 {
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px; }
-
-/********************
-CARD OVERRIDE
-********************/
-.card {
-  margin-bottom: 10px;
-  background-color: #ffffff;
-  opacity: 0.8;
-  color: black;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
-  padding: 10px; }
-
-.cardTestimonial {
-  margin-bottom: 10px;
-  background-color: #ffffff;
-  opacity: 0.8;
-  color: black;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
-  padding: 10px; }
-
-.card:hover {
-  color: #fff;
-  background-color: #ec971f;
-  border-color: #d58512;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9); }
-
-.card h3 a:hover {
-  color: #fff; }
-
-.card-title, .card-text, .clickThis {
-  margin-top: 10px; }
 
 /********************
 NAVBAR-DEFAULT
@@ -196,6 +35,13 @@ NAVBAR-DEFAULT
   background-color: black;
   border-color: black;
   color: white; }
+
+.siteLogo {
+  width: 30%;
+  margin-top: 10px; }
+
+.dropdown {
+  display: inline-block; }
 
 /********************
 STICKY FOOTER
@@ -217,6 +63,153 @@ body {
 
 .footer .container p {
   color: white; }
+
+.footer {
+  margin-top: 10px; }
+
+/********************
+LANDING PAGE
+********************/
+.landing {
+  background-image: url("/img/home-nowords.png");
+  width: 100%;
+  min-height: 100%;
+  margin-bottom: -100px;
+  padding-left: -10px;
+  padding-right: -10px;
+  margin-top: -80px; }
+
+.homeLanding {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px; }
+
+.inner {
+  padding: 5px; }
+
+.site-wrapper {
+  box-shadow: inset 0 0 100px transparent; }
+
+/********************
+ABOUT PAGE
+********************/
+.circleFrank {
+  border-radius: 100%;
+  width: 30%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  margin-right: 20px;
+  margin-top: 10px; }
+
+.circleSinger {
+  border-radius: 100%;
+  width: 15%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  margin-left: 20px; }
+
+.lines {
+  line-height: 1.5em; }
+
+.yellow {
+  color: #ec971f; }
+
+/**********
+CONTACT FORM
+***********/
+.well {
+  background-color: #333;
+  border: none; }
+
+/********************
+SERVICES PAGE
+********************/
+.alignTopServices {
+  margin-top: 10px; }
+
+.scheduler-border {
+  padding-left: 10px;
+  padding-right: 10px; }
+
+hr {
+  margin-left: 10px; }
+
+.price {
+  font-family: Impact, Charcoal, sans-serif;
+  background-color: #f60;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #f30;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  margin-right: -25px;
+  margin-left: 25px;
+  margin-top: -25px; }
+
+.interested {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  margin-right: 25px;
+  margin-left: -25px; }
+
+/****************
+SPACING
+****************/
+.bottomMarg {
+  margin-bottom: 20px; }
+
+.bottomMarg2 {
+  margin-bottom: 40px; }
+
+.space {
+  margin: 0px 0px 5px 0px;
+  font-size: 1.2em;
+  text-align: center; }
+
+.somePad2 {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px; }
+
+/********************
+CARD OVERRIDE
+********************/
+img .card-img-top {
+  width: 100%; }
+
+.card {
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  opacity: 0.8;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px; }
+
+.cardTestimonial {
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  opacity: 0.8;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px; }
+
+.negative20 {
+  margin-top: -20px; }
+
+.card:hover {
+  color: #fff;
+  background-color: #ec971f;
+  border-color: #d58512;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9); }
+
+.card h3 a:hover {
+  color: #fff; }
+
+.card-title, .card-text, .clickThis {
+  margin-top: 10px; }
 
 /********************
 BUTTONS OVERRIDE
@@ -284,13 +277,6 @@ fieldset[disabled] .btn-info.focus {
   background: #09c;
   border-color: #06c; }
 
-/**********
-CONTACT FORM
-***********/
-.well {
-  background-color: #333;
-  border: none; }
-
 /********************
 BUTTONS - Primary
 ********************/
@@ -352,12 +338,6 @@ fieldset[disabled] .btn-primary.focus {
   background-color: #fff; }
 
 /********************
-CARD IMAGES
-********************/
-img .card-img-top {
-  width: 100%; }
-
-/********************
 CAROUSEL
 ********************/
 .carousel-indicators li {
@@ -369,8 +349,23 @@ CAROUSEL
   text-shadow: 0 1px 5px rgba(0, 0, 0, 0.9); }
 
 /********************
-FONTS
+FONTS OVERRIDES
 ********************/
+.note {
+  font-size: .75em; }
+
+.note2 {
+  font-size: .6em; }
+
+.mb-0 a {
+  color: black; }
+
+.none {
+  text-decoration: none;
+  /* no underline */
+  color: #ffa31a;
+  font-size: 1.25em; }
+
 h1 {
   font-family: "Varela Round";
   font-size: 23px;
@@ -496,9 +491,9 @@ COL-OVERRIDE
   padding-left: 15px;
   padding-right: 15px; }
 
-/***
+/****************
 SOUNDCLOUD OVERRIDES
-***/
+****************/
 .cookiePolicy__link, .sc-link-medium, .cookiePolicy, .sc-background-light {
   visibility: hidden; }
 
@@ -514,9 +509,9 @@ CAROUSEL
   padding-top: 0px;
   text-shadow: 0 1px 5px rgba(0, 0, 0, 0.9); }
 
-/***
-Testimonial
-***/
+/*****************
+Testimonial (cam with plug-in code)
+*****************/
 .testimonials {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -572,3 +567,7 @@ Testimonial
   color: white;
   padding-left: 40px;
   padding-right: 40px; }
+
+/******************
+GET RID OF?
+******************/
