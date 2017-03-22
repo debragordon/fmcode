@@ -10,38 +10,27 @@
   <link href="styles/cover.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="styles/main.css">
 </head>
-<body ng-app="FMNashDemo" ng-cloak class="image-fluid home" ng-controller="BodyCtrl" ng-class="{home: $route.current.activetab == 'home'}">
+<body ng-app="FMNashDemo" ng-cloak class="image-fluid">
   <div>
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
 
         <div class="row">
-          <div class="col-4">
+          <div class="col-4 somePad">
             <a href="#/home"><img src="/img/fm-logo.png" alt="" class="siteLogo"></a>
           </div>
-          <div class="col-4">
+          <div class="col-4 somePad">
             <!-- NOTHING HERE -->
           </div>
-          <div class="col-4">
+          <div class="col-4 somePad">
             <div class="dropdown .dropdown-menu-right">
-              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                Producer
-                <span class="caret"></span>
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                <li><a href="#/about">Learn about Frank</a></li>
-                <li><a href="#/gallery">View Gallery</a></li>
-              </ul>
+              <a href="#/about" class="btn btn-default btn-block">Meet Frank</a>
             </div>
             <div class="dropdown .dropdown-menu-right">
-              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                Services
-                <span class="caret"></span>
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                <li><a href="#/services">Browse Services</a></li>
-                <li><a href="#/samples">Listen to Samples</a></li>
-              </ul>
+              <a href="#/samples" class="btn btn-default btn-block">Listen</a>
+            </div>
+            <div class="dropdown .dropdown-menu-right">
+              <a href="#/services" class="btn btn-default btn-block">View Services</a>
             </div>
             <div class="dropdown .dropdown-menu-right">
               <a href="mailto:michels8@comcast.net" class="btn btn-default btn-block">Contact</a>
@@ -52,7 +41,7 @@
     </nav>
   </div>
 
-  <div class="row viewPort">
+  <div class="row viewPort noPad">
     <div class="col-xs-12" ng-view>
       <!-- back the backgroud guitar only show on the landing.html view -->
     </div>
@@ -70,8 +59,8 @@
 
   <script type="text/javascript" src="lib/node_modules/jquery/dist/jquery.min.js"></script>
   <script type="text/javascript" src="lib/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.js"></script>
+  <script src="lib/node_modules/angular/angular.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="lib/node_modules/angular-route/angular-route.min.js" type="text/javascript" charset="utf-8"></script>
   <script type="text/javascript" src="/javascripts/app.js"></script>
   <script type="text/javascript" src="/javascripts/AppConfig.js"></script>
   <script src="/javascripts/ie10-viewport-bug-workaround.js"></script>
@@ -81,9 +70,8 @@
   <script src="/javascripts/controllers/BodyCtrl.js" type="text/javascript" charset="utf-8" async defer></script>
 
   <script src="/javascripts/controllers/LandingCtrl.js" type="text/javascript" charset="utf-8" async defer></script>
-  <script src="/javascripts/controllers/AboutCtrl.js" type="text/javascript" charset="utf-8" async defer></script>
   <script src="/javascripts/controllers/ContactCtrl.js" type="text/javascript" charset="utf-8" async defer></script>
-  <script src="/javascripts/controllers/GalleryCtrl.js" type="text/javascript" charset="utf-8" async defer></script>
+  <script src="/javascripts/controllers/AboutCtrl.js" type="text/javascript" charset="utf-8" async defer></script>
   <script src="/javascripts/controllers/ServicesCtrl.js" type="text/javascript" charset="utf-8" async defer></script>
   <script src="/javascripts/controllers/SamplesCtrl.js" type="text/javascript" charset="utf-8" async defer></script>
 </body>

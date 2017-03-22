@@ -1,7 +1,7 @@
 {
-  "name": "front-end-capstone-dg",
+  "name": "FM-demo-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "angular website for Frank Michels Nashville Demo",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

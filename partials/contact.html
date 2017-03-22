@@ -8,8 +8,6 @@
               <div data-ng-show="progress.active()" style="color: red; font-size: 50px;">Sending…</div>
               <form name="contactFrank" class="form-horizontal" action="" method="post">
                 <fieldset>
-                  <legend class="text-center">Contact Frank</legend>
-
                   <!-- Name input-->
                   <div class="form-group">
                     <div class="col-md-12">
@@ -38,7 +36,7 @@
                   <!-- Form actions -->
                   <div class="form-group">
                     <div class="col-md-12 text-right">
-                      <button data-ng-disable="progress.active()" data-ng-click="submit(contactFrank)" type="submit" class="btn btn-info btn-lg">Submit</button>
+                      <button data-ng-disable="progress.active()" data-ng-click="submit(contactFrank)" type="submit" class="btn btn-warning">Submit</button>
                     </div>
                   </div>
                 </fieldset>

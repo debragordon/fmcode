@@ -4,16 +4,15 @@ app.config(function($routeProvider) {
     $routeProvider
         .when('/home', {
             templateUrl: 'partials/landing.html',
-            activetab: 'home',
             controller: 'LandingCtrl'
         })
         .when('/about', {
             templateUrl: 'partials/about.html',
             controller: 'AboutCtrl'
         })
-        .when('/gallery', {
-            templateUrl: 'partials/gallery.html',
-            controller: 'GalleryCtrl'
+        .when('/contact', {
+            templateUrl: 'partials/contact.html',
+            controller: 'ContactCtrl'
         })
         .when('/samples', {
             templateUrl: 'partials/samples.html',

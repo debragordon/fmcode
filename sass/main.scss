@@ -11,11 +11,6 @@ body {
   text-shadow: 0 1px 3px rgba(0,0,0,.1);
 }
 
-.viewPort {
-  padding-top: 100px;
-  margin: 3px;
-}
-
 a {
   text-decoration: none;
 }
@@ -25,13 +20,16 @@ ul {
 }
 
 /********************
-CLASSES
+Landing/Home View
 ********************/
 .home {
   background-image: url("/img/home-nowords.png");
   width: 100%;
   min-height: 100%;
   margin-bottom: -100px;
+  padding-left: -10px;
+  padding-right: -10px;
+  margin-top: -80px;
 }
 
 .homeCover {
@@ -40,12 +38,40 @@ CLASSES
   margin-bottom: 20px;
 }
 
+/********************
+CLASSES
+********************/
+
+.circleFrank {
+  border-radius:100%;
+  width: 30%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.circleSinger {
+  border-radius:100%;
+  width: 15%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  margin-left: 20px;
+}
+
+.viewPort {
+  padding-top: 100px;
+  margin: 3px;
+}
+
 .inner {
   padding: 5px;
 }
 
 .dropdown {
   display: inline-block;
+}
+
+.lines {
+  line-height: 1.5em;
 }
 
 .siteLogo {
@@ -70,10 +96,8 @@ CLASSES
   margin-bottom: 20px;
 }
 
-.card {
-  border-radius: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  padding: 10px;
+.yellow {
+color: #ec971f;
 }
 
 .small {
@@ -82,6 +106,14 @@ CLASSES
 
 .note {
   font-size: .75em;
+}
+
+.alignTopServices {
+  margin-top: 10px;
+}
+
+.note2{
+  font-size: .6em;
 }
 
 .topper {
@@ -93,12 +125,38 @@ CLASSES
   margin-top: 10px;
 }
 
-.card-title, .card-text, .clickThis {
-  margin-top: 10px;
+.mb-0 a {
+  color: black;
+}
+
+.price {
+  font-family: Impact, Charcoal, sans-serif;
+  background-color: #f60;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #f30;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  margin-right: -25px;
+  margin-left: 25px;
+  margin-top: -40px;
+}
+
+.interested {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  margin-right: 25px;
+  margin-left: -25px;
 }
 
 .bottomMarg {
   margin-bottom: 20px;
+}
+
+.bottomMarg2 {
+  margin-bottom: 40px;
 }
 
 .none {
@@ -113,6 +171,13 @@ CLASSES
  text-align: center;
 }
 
+.somePad2{
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
 /********************
 CARD OVERRIDE
 ********************/
@@ -122,6 +187,34 @@ CARD OVERRIDE
   background-color: #ffffff;
   opacity: 0.8;
   color: black;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+.cardTestimonial {
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  opacity: 0.8;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+.card:hover {
+  color: #fff;
+  background-color: #ec971f;
+  border-color: #d58512;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+}
+
+.card h3 a:hover {
+  color: #fff;
+}
+
+.card-title, .card-text, .clickThis {
+  margin-top: 10px;
 }
 
 /********************
@@ -166,6 +259,14 @@ body {
 
 .footer .container p {
   color: white;
+}
+
+/********************
+BUTTONS OVERRIDE
+********************/
+
+.btn:focus,.btn:active {
+   outline: none !important;
 }
 
 /********************
@@ -236,35 +337,43 @@ fieldset[disabled] .btn-info.focus {
   border-color: #06c;
 }
 
+/**********
+CONTACT FORM
+***********/
+.well {
+  background-color: #333;
+  border: none;
+}
+
 /********************
 BUTTONS - Primary
 ********************/
 
 .btn-primary {
   color: #fff;
-  background: #609999;
-  border-color: #246666;
+  background: #333;
+  border-color: #24241e;
 }
 
 .btn-primary:focus,
 .btn-primary.focus {
   color: #fff;
-  background: #60b199;
-  border-color: #246666;
+  background: #3d4044;
+  border-color: #24241e;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background: #60b199;
-  border-color: #246666;
+  background: #3d4044;
+  border-color: #24241e;
 }
 
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: #fff;
-  background: #60b199;
-  border-color: #246666;
+  background: #3d4044;
+  border-color: #24241e;
 }
 .btn-primary:active:hover,
 .btn-primary.active:hover,
@@ -276,8 +385,8 @@ BUTTONS - Primary
 .btn-primary.active.focus,
 .open > .dropdown-toggle.btn-primary.focus {
   color: #fff;
-  background: #60b199;
-  border-color: #246666;
+  background: #3d4044;
+  border-color: #24241e;
 }
 
 .btn-primary:active,
@@ -295,8 +404,8 @@ fieldset[disabled] .btn-primary:focus,
 .btn-primary.disabled.focus,
 .btn-primary[disabled].focus,
 fieldset[disabled] .btn-primary.focus {
-  background: #60b199;
-  border-color: #246666;
+  background: #3d4044;
+  border-color: #24241e;
 }
 
 .btn-primary .badge {
@@ -317,7 +426,7 @@ CAROUSEL
 ********************/
 .carousel-indicators li {
   background-color: rgba(0,0,0,10);
-    border: 1px solid #000;
+  border: 1px solid #000;
 }
 
 .carousel-caption {
@@ -374,97 +483,219 @@ pre {
 MEDIA QUERY INFO
 ********************/
 
-  /* Custom, iPhone Retina */
-  @media only screen and (min-width : 320px){
-    .viewPort {
-      padding-top: 130px
-    }
-    .masthead, .mastfoot, .cover-container {
-      width: 100%;
-    }
-    .bump {
-      margin-top: -100px;
-      margin-bottom: 20px;
-    }
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px){
+  .viewPort {
+    padding-top: 130px
   }
+  .masthead, .mastfoot, .cover-container {
+    width: 100%;
+  }
+  .bump {
+    margin-top: -100px;
+    margin-bottom: 20px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px){
+  .viewPort {
+    padding-top: 130px
+  }
+  .masthead, .mastfoot, .cover-container {
+    width: 100%;
+    }
+  .bump {
+    margin-top: -170px;
+    margin-bottom: 50px;
+  }
+}
 
   /* Extra Small Devices, Phones */
-  @media only screen and (min-width : 480px){
-    .viewPort {
-      padding-top: 130px
-    }
-    .masthead, .mastfoot, .cover-container {
-      width: 100%;
-      }
-    .bump {
-      margin-top: -170px;
-      margin-bottom: 50px;
-    }
+@media only screen and (min-width : 480px){
+  .viewPort {
+    padding-top: 130px
   }
+  .masthead, .mastfoot, .cover-container {
+    width: 100%;
+    }
+  .bump {
+    margin-top: -170px;
+    margin-bottom: 50px;
+  }
+}
 
-    /* Extra Small Devices, Phones */
-  @media only screen and (min-width : 480px){
-    .viewPort {
-      padding-top: 130px
-    }
-    .masthead, .mastfoot, .cover-container {
-      width: 100%;
-      }
-    .bump {
-      margin-top: -170px;
-      margin-bottom: 50px;
-    }
+/* Small Devices, Tablets */
+@media only screen and (min-width : 550px){
+  .viewPort {
+    padding-top: 150px
   }
+}
 
-  /* Small Devices, Tablets */
-  @media only screen and (min-width : 550px){
-    .viewPort {
-      padding-top: 150px
-    }
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 700px){
+  .bump {
+    margin-top: -210px;
+    margin-bottom: 100px;
   }
+}
 
-  /* Medium Devices, Desktops */
-  @media only screen and (min-width : 700px){
-    .bump {
-      margin-top: -210px;
-      margin-bottom: 100px;
-    }
+@media screen and (max-width: 768px) {
+  .media-object {
+    margin-top:0;
   }
+}
 
-  /* Medium Devices, Desktops */
-  @media only screen and (min-width : 992px){
-    .viewPort {
-      padding-top: 160px
-    }
-    .masthead, .mastfoot, .cover-container {
-    width: 900px;
-    }
-    .bump {
-      margin-top: -250px;
-      margin-bottom: 150px;
-    }
-    .siteLogo {
-      width: 20%;
-      margin-top: 10px;
-    }
-  }
 
-  /* Large Devices, Wide Screens */
-  @media only screen and (min-width : 1200px){
-    .viewPort {
-      padding-top: 160px
-    }
-    .masthead, .mastfoot, .cover-container {
-    width: 1100px;
-    }
-    .bump {
-      margin-top: -300px;
-      margin-bottom: 200px;
-    }
-    .siteLogo {
-      width: 15%;
-      margin-top: 10px;
-    }
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px){
+  .viewPort {
+    padding-top: 160px
   }
+  .masthead, .mastfoot, .cover-container {
+  width: 900px;
+  }
+  .bump {
+    margin-top: -250px;
+    margin-bottom: 150px;
+  }
+  .siteLogo {
+    width: 20%;
+    margin-top: 10px;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px){
+  .viewPort {
+    padding-top: 160px
+  }
+  .masthead, .mastfoot, .cover-container {
+  width: 1100px;
+  }
+  .bump {
+    margin-top: -300px;
+    margin-bottom: 200px;
+  }
+  .siteLogo {
+    width: 15%;
+    margin-top: 10px;
+  }
+}
+
+/**************
+COL-OVERRIDE
+**************/
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.somePad{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/***
+SOUNDCLOUD OVERRIDES
+***/
+
+// NOT WORKING
+.cookiePolicy__link, .sc-link-medium, .cookiePolicy, .sc-background-light {
+  visibility: hidden;
+}
+
+/********************
+CAROUSEL
+********************/
+.carousel-indicators li {
+  background-color: #ec971f;
+  border: 1px solid #d58512;
+  margin: 2px;
+}
+
+.carousel-caption {
+  // background-color: rgba(0, 0, 0, 0.1);
+  padding-top: 0px;
+  text-shadow: 0 1px 5px rgba(0,0,0,.9);
+  // padding-top: 80px;
+  // bottom: -10px;
+}
+
+/***
+Testimonial
+***/
+
+.testimonials {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #333;
+  color: white;
+}
+
+.testimonials .lead {
+  color: #ec971f;
+}
+
+// .carousel-indicators .active {
+//   background: #ec971f;
+// }
+
+.content {
+  margin-top:20px;
+}
+
+.adjust1 {
+  float:left;
+  width:100%;
+  margin-bottom:0;
+}
+
+.adjust2 {
+  margin:0; }
+
+.carousel-indicators li {
+  border :1px solid #ccc;
+}
+
+.carousel-control {
+  color:#ec971f;
+  width:5%;
+}
+
+.carousel-control:hover, .carousel-control:focus {
+  color:#d58512;
+}
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none;
+}
+
+.media-object {
+  margin:auto;
+  margin-top:15%;
+}
+
+.thumbnail {
+    display: block;
+    text-align: center;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.25;
+    background-color: #333;
+    border: 0px solid #ddd;
+    color: white;
+    border-radius: 4px;
+    -webkit-transition: border .9s ease-in-out;
+    -o-transition: border .9s ease-in-out;
+    transition: border .9s ease-in-out;
+}
+
+.caption p {
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 
 

@@ -1,7 +1,7 @@
 {
     "testimonials": {
         "testimonial0": {
-            "detail": "Frank Michels has produced demos for over 70 of my songs. He is an unbelievablemusician, playing several instruments, his guitar skill is amazing. He has provided vocals by Debra Gordon and David Ward both of whom are as talented as any Nashville recording artist. I appreciate Frank's professional arrangements and the fact that he includes at no extra cost the instrument tracks that I am able to record my own voice to. I am a retired FBI Agent and Chief of a Major Sheriff's Office with over 40 years of experience. Frank has been honest, fair, and has provided high quality products at reasonable cost. I highly recommend Frank's Demo Service",
+            "detail": "Frank Michels has produced demos for over 70 of my songs. He is an unbelievable musician, playing several instruments, his guitar skill is amazing. He has provided vocals by Debra Gordon and David Ward both of whom are as talented as any Nashville recording artist. I appreciate Frank's professional arrangements and the fact that he includes at no extra cost the instrument tracks that I am able to record my own voice to. I am a retired FBI Agent and Chief of a Major Sheriff's Office with over 40 years of experience. Frank has been honest, fair, and has provided high quality products at reasonable cost. I highly recommend Frank's Demo Service.",
             "songwriter": "K. Thornton"
         },
         "testimonial1": {
@@ -39,6 +39,60 @@
         "testimonial9": {
             "detail": "I absolutely love it! It's exactly the style and attitude I was looking for. Awesome music and vocals! I can't believe how quickly I got my demo. I will definitely be sending more lyrics soon.",
             "songwriter": "C. Little"
+        }
+    },
+    "sliderImages": {
+        "sliderImage0": {
+            "image": "img/slider-01.jpg",
+            "caption": "Caption Info Here"
+        },
+        "sliderImage1": {
+            "image": "img/slider-02.jpg",
+            "caption": "Caption Info Here"
+        },
+        "sliderImage2": {
+            "image": "img/slider-03.jpg",
+            "caption": "Caption Info Here"
+        },
+        "sliderImage3": {
+            "image": "img/slider-04.jpg",
+            "caption": "Caption Info Here"
+        },
+        "sliderImage4": {
+            "image": "img/slider-05.jpg",
+            "caption": "Caption Info Here"
+        },
+        "sliderImage5": {
+            "image": "img/slider-06.jpg",
+            "caption": "Caption Info Here"
+        },
+        "sliderImage6": {
+            "image": "img/slider-07.jpg",
+            "caption": "Caption Info Here"
+        },
+        "sliderImage7": {
+            "image": "img/slider-08.jpg",
+            "caption": "Caption Info Here"
+        },
+        "sliderImage8": {
+            "image": "img/slider-09.jpg",
+            "caption": "Caption Info Here"
+        },
+        "sliderImage9": {
+            "image": "img/slider-10.jpg",
+            "caption": "Caption Info Here"
+        },
+        "sliderImage10": {
+            "image": "img/slider-11.jpg",
+            "caption": "Caption Info Here"
+        },
+        "sliderImage11": {
+            "image": "img/slider-12.jpg",
+            "caption": "Caption Info Here"
+        },
+        "sliderImage12": {
+            "image": "img/slider-13.jpg",
+            "caption": "Caption Info Here"
         }
     }
 }
