@@ -10,10 +10,6 @@ app.config(function($routeProvider) {
             templateUrl: 'partials/about.html',
             controller: 'AboutCtrl'
         })
-        .when('/contact', {
-            templateUrl: 'partials/contact.html',
-            controller: 'ContactCtrl'
-        })
         .when('/samples', {
             templateUrl: 'partials/samples.html',
             controller: 'SamplesCtrl'
@@ -24,3 +20,10 @@ app.config(function($routeProvider) {
         })
         .otherwise('/home');
 });
+
+
+        // use if I need a contact form/page
+        // .when('/contact', {
+        //     templateUrl: 'partials/contact.html',
+        //     controller: 'ContactCtrl'
+        // })

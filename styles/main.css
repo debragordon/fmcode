@@ -37,8 +37,7 @@ NAVBAR-DEFAULT
   color: white; }
 
 .siteLogo {
-  width: 30%;
-  margin-top: 10px; }
+  width: 100%; }
 
 .dropdown {
   display: inline-block; }
@@ -104,7 +103,7 @@ ABOUT PAGE
   border-radius: 100%;
   width: 15%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
-  margin-left: 20px; }
+  margin-right: 20px; }
 
 .lines {
   line-height: 1.5em; }
@@ -198,6 +197,9 @@ img .card-img-top {
 
 .negative20 {
   margin-top: -20px; }
+
+.negative40 {
+  margin-top: -40px; }
 
 .card:hover {
   color: #fff;
@@ -412,7 +414,7 @@ MEDIA QUERY INFO
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 320px) {
   .viewPort {
-    padding-top: 130px; }
+    padding-top: 160px; }
   .masthead, .mastfoot, .cover-container {
     width: 100%; }
   .bump {
@@ -422,37 +424,39 @@ MEDIA QUERY INFO
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 480px) {
   .viewPort {
-    padding-top: 130px; }
+    padding-top: 160px; }
   .masthead, .mastfoot, .cover-container {
     width: 100%; }
   .bump {
     margin-top: -170px;
-    margin-bottom: 50px; } }
-
-/* Extra Small Devices, Phones */
-@media only screen and (min-width: 480px) {
-  .viewPort {
-    padding-top: 130px; }
-  .masthead, .mastfoot, .cover-container {
-    width: 100%; }
-  .bump {
-    margin-top: -170px;
-    margin-bottom: 50px; } }
+    margin-bottom: 50px; }
+  .siteLogo {
+    width: 80%; } }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width: 550px) {
   .viewPort {
-    padding-top: 150px; } }
+    padding-top: 160px; }
+  .siteLogo {
+    width: 80%; } }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 700px) {
+  .viewPort {
+    padding-top: 160px; }
   .bump {
     margin-top: -210px;
-    margin-bottom: 100px; } }
+    margin-bottom: 100px; }
+  .siteLogo {
+    width: 287px; } }
 
 @media screen and (max-width: 768px) {
+  .viewPort {
+    padding-top: 160px; }
   .media-object {
-    margin-top: 0; } }
+    margin-top: 0; }
+  .siteLogo {
+    width: 287px; } }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
@@ -464,8 +468,7 @@ MEDIA QUERY INFO
     margin-top: -250px;
     margin-bottom: 150px; }
   .siteLogo {
-    width: 20%;
-    margin-top: 10px; } }
+    width: 287px; } }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
@@ -477,8 +480,7 @@ MEDIA QUERY INFO
     margin-top: -300px;
     margin-bottom: 200px; }
   .siteLogo {
-    width: 15%;
-    margin-top: 10px; } }
+    width: 287px; } }
 
 /**************
 COL-OVERRIDE
