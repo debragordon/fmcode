@@ -1,80 +1,92 @@
 {
-    "services": {
-        "service0": {
-            "title": "Service 1",
-            "detail": "Something here"
+    "testimonials": [ {
+            "lead": "Frank is an unbelievable musician.",
+            "detail": "Frank Michels has produced demos for over 70 of my songs. I appreciate Frank's professional arrangements and the fact that he includes at no extra cost the instrument tracks that I am able to record my own voice to.",
+            "songwriter": "K. Thornton"
         },
-        "service1": {
-            "title": "Service 2",
-            "detail": "Something here"
+        {
+            "lead": "Frank's demos are nothing short of amazing.",
+            "detail": "His ability to work in a wide range of styles, with varied instrumentation and great vocals at a reasonable price makes him a true Nashville treasure.",
+            "songwriter": "R. Simbeck (writer for Bob Kingsley’s Country Top 40)"
         },
-        "service2": {
-            "title": "Service 3",
-            "detail": "Something here"
+        {
+            "lead": "You are a song saver.",
+            "detail": "I just wanted to let you know that I am extremely impressed with your work. I wish I had found you a year ago-- It would have saved me a lot of time, money and stress.",
+            "songwriter": "R. Williams"
         },
-        "service3": {
-            "title": "Service 4",
-            "detail": "Something here"
+        {
+            "lead": "Your talent is undeniable.",
+            "detail": "Thank you Frank, your ability to hear the song the way I do just blows me away! And please tell Debra thanks as well, I am fortunate to have you both on the songs.",
+            "songwriter": "S. Hodge"
         },
-        "service4": {
-            "title": "Service 5",
-            "detail": "Something here"
+        {
+            "lead": "Great work and thanks again!",
+            "detail": "Wow Frank, I love the song! I like the ending a lot and especially all of the small accents and embellishments in verse two.",
+            "songwriter": "J. Ulm"
+        },
+        {
+            "lead": "You really worked some magic.",
+            "detail": "Thanks for the MP3 and for a very good demo. You really worked some magic to take the crude effort I sent you and made it sound professional!!",
+            "songwriter": "C. Welch"
+        },
+        {
+            "lead": "Main thing here.",
+            "detail": "I absolutely love it! It's exactly the style and attitude I was looking for. Awesome music and vocals! I can't believe how quickly I got my demo. I will definitely be sending more lyrics soon.",
+            "songwriter": "C. Little"
         }
-    },
-    "images": {
-        "image0": {
-            "image": "http://www.nashville-songdemo.com/images/pic_frank_main.jpg",
-            "detail": "Something here"
+    ],
+    "sliderImages": {
+        "sliderImage0": {
+            "image": "img/slider-01.jpg",
+            "caption": "Caption Info Here"
         },
-        "image1": {
-            "image": "http://www.nashville-songdemo.com/images/pic_frank_main.jpg",
-            "detail": "Something here"
+        "sliderImage1": {
+            "image": "img/slider-02.jpg",
+            "caption": "Caption Info Here"
         },
-        "image2": {
-            "image": "http://www.nashville-songdemo.com/images/pic_frank_main.jpg",
-            "detail": "Something here"
+        "sliderImage2": {
+            "image": "img/slider-03.jpg",
+            "caption": "Caption Info Here"
         },
-        "image3": {
-            "image": "http://www.nashville-songdemo.com/images/pic_frank_main.jpg",
-            "detail": "Something here"
+        "sliderImage3": {
+            "image": "img/slider-04.jpg",
+            "caption": "Caption Info Here"
         },
-        "image4": {
-            "image": "http://www.nashville-songdemo.com/images/pic_frank_main.jpg",
-            "detail": "Something here"
+        "sliderImage4": {
+            "image": "img/slider-05.jpg",
+            "caption": "Caption Info Here"
         },
-        "image5": {
-            "image": "http://www.nashville-songdemo.com/images/pic_frank_main.jpg",
-            "detail": "Something here"
-        }
-    },
-    "songs": {
-        "song0": {
-            "song": "song-link-here-from-soundcloud",
-            "title": "Detail Here",
+        "sliderImage5": {
+            "image": "img/slider-06.jpg",
+            "caption": "Caption Info Here"
         },
-        "song1": {
-            "song": "song-link-here-from-soundcloud",
-            "title": "Detail Here",
+        "sliderImage6": {
+            "image": "img/slider-07.jpg",
+            "caption": "Caption Info Here"
         },
-        "song2": {
-            "song": "song-link-here-from-soundcloud",
-            "title": "Detail Here",
+        "sliderImage7": {
+            "image": "img/slider-08.jpg",
+            "caption": "Caption Info Here"
         },
-        "song3": {
-            "song": "song-link-here-from-soundcloud",
-            "title": "Detail Here",
+        "sliderImage8": {
+            "image": "img/slider-09.jpg",
+            "caption": "Caption Info Here"
         },
-        "song4": {
-            "song": "song-link-here-from-soundcloud",
-            "title": "Detail Here",
+        "sliderImage9": {
+            "image": "img/slider-10.jpg",
+            "caption": "Caption Info Here"
         },
-        "song5": {
-            "song": "song-link-here-from-soundcloud",
-            "title": "Detail Here",
+        "sliderImage10": {
+            "image": "img/slider-11.jpg",
+            "caption": "Caption Info Here"
         },
-        "song6": {
-            "song": "song-link-here-from-soundcloud",
-            "title": "Detail Here",
+        "sliderImage11": {
+            "image": "img/slider-12.jpg",
+            "caption": "Caption Info Here"
+        },
+        "sliderImage12": {
+            "image": "img/slider-13.jpg",
+            "caption": "Caption Info Here"
         }
     }
 }

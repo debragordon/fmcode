@@ -1,5 +1,62 @@
-<div class="container">
+<div class="container" data-ng-controller="ContactCtrl">
   <div class="row">
-    <div>Contact Content Here</div>
+    <div class="container">
+      <div class="row">
+          <div class="col-sm-6 col-sm-offset-3">
+            <div class="well well-sm">
+              <div id="messages" class="alert alert-success" data-ng-show="messages" data-ng-bind="messages"></div>
+              <div data-ng-show="progress.active()" style="color: red; font-size: 50px;">Sending…</div>
+              <form name="contactFrank" class="form-horizontal" action="" method="post">
+                <fieldset>
+                  <!-- Name input-->
+                  <div class="form-group">
+                    <div class="col-md-12">
+                      <span class="label label-danger" data-ng-show="submitted && helpForm.name.$error.required">Required!</span>
+                      <input ng-model="name" id="name" name="name" type="text" placeholder="Your name" class="form-control" required>
+                    </div>
+                  </div>
+
+                  <!-- Email input-->
+                  <div class="form-group">
+                    <div class="col-md-12">
+                      <span class="label label-danger" data-ng-show="submitted && helpForm.name.$error.required">Required!</span>
+                      <span class="label label-danger" data-ng-show="submitted && helpForm.$error.email">Invalid email!</span>
+                      <input ng-model="email" id="email" name="email" type="text" placeholder="Your email" class="form-control" required>
+                    </div>
+                  </div>
+
+                  <!-- Interested In -->
+                  <div class="form-group text-left">
+                    <label for="exampleSelect1" class="text-left">Interested in which service primarily</label>
+                    <select class="form-control" id="exampleSelect1">
+                      <option>Select One</option>
+                      <option>COMPLETE FULL BAND DEMO</option>
+                      <option>COMPLETE FULL BAND DEMO (NO VOCALS)</option>
+                      <option>BASIC DEMO</option>
+                      <option>BASIC DEMO (NO VOCALS)</option>
+                      <option>ADDITIONAL SERVICES</option>
+                    </select>
+                  </div>
+
+                  <!-- Message body -->
+                  <div class="form-group">
+                    <div class="col-md-12">
+                      <span class="label label-danger" data-ng-show="submitted && helpForm.name.$error.required">Required!</span>
+                      <textarea ng-model="message" class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="6" required></textarea>
+                    </div>
+                  </div>
+
+                  <!-- Form actions -->
+                  <div class="form-group">
+                    <div class="col-md-12 text-right">
+                      <button data-ng-disable="progress.active()" data-ng-click="submit(contactFrank)" type="submit" class="btn btn-warning">Submit</button>
+                    </div>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+      </div>
+    </div>
   </div>
 </div>
