@@ -38,7 +38,7 @@
         <div class="card">
           <div class="card-header" role="tab" id="headingOne">
             <h3 class="mb-0 card-title text-left text-uppercase inline-block">
-              <a data-toggle="collapse" data-parent="#accordion" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Complete Full Band Demo</a>
+              <a data-toggle="collapse" data-parent="#accordion" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Complete Full Band Demo  <span class="glyphicon" ng-class="isHidden ? 'glyphicon-chevron-down' : 'glyphicon-chevron-up'" ng-click="isHidden = !isHidden;"></span></a>
             </h3>
           </div>
           <div id="collapseOne" class="collapse in" role="tabpanel" aria-labelledby="headingOne">
@@ -85,7 +85,7 @@
         <div class="card">
           <div class="card-header" role="tab" id="headingTwo">
             <h3 class="mb-0 card-title text-left text-uppercase">
-              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Complete Full Band Demo (No Vocals)</a>
+              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Complete Full Band Demo (No Vocals)  <span class="glyphicon" ng-class="isHidden ? 'glyphicon-chevron-down' : 'glyphicon-chevron-up'" ng-click="isHidden = !isHidden;"></span></a>
             </h3>
           </div>
           <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
@@ -130,7 +130,7 @@
         <div class="card">
           <div class="card-header" role="tab" id="headingThree">
             <h3 class="mb-0 card-title text-left text-uppercase">
-              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Basic Demo</a>
+              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Basic Demo  <span class="glyphicon" ng-class="isHidden ? 'glyphicon-chevron-down' : 'glyphicon-chevron-up'" ng-click="isHidden = !isHidden;"></span></a>
             </h3>
           </div>
           <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
@@ -165,7 +165,7 @@
         <div class="card">
           <div class="card-header" role="tab" id="headingFour">
             <h3 class="mb-0 card-title text-left text-uppercase">
-              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Basic Demo (No Vocals)</a>
+              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Basic Demo (No Vocals)  <span class="glyphicon" ng-class="isHidden ? 'glyphicon-chevron-down' : 'glyphicon-chevron-up'" ng-click="isHidden = !isHidden;"></span></a>
             </h3>
           </div>
           <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
@@ -197,7 +197,7 @@
         <div class="card">
           <div class="card-header" role="tab" id="headingFive">
             <h3 class="mb-0 card-title text-left text-uppercase">
-              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">ADDITIONAL SERVICES</a>
+              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">ADDITIONAL SERVICES  <span class="glyphicon" ng-class="isHidden ? 'glyphicon-chevron-down' : 'glyphicon-chevron-up'" ng-click="isHidden = !isHidden;"></span></a>
             </h3>
           </div>
           <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive">
@@ -243,12 +243,12 @@
     </div>
   </div>
 
-  <div class="row bottomMarg2" id="terms-of-service">
-    <div class="col-sm-4"></div>
-    <div class="col-sm-4">
+  <div class="row bottomMarg2 somePad" id="terms-of-service">
+<!--     <div class="col-sm-4"></div> -->
+    <div class="col-sm-12 text-left">
       <button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#demo">Terms | Conditions</button>
     </div>
-    <div id="demo" class="collapse text-left col-sm-12">
+    <div id="demo" class="collapse text-left col-sm-12 alignTopServices">
       <p class="text-left"><i class="fa fa-circle" aria-hidden="true"></i>  You own all of your own songs.</p>
       <p class="text-left"><i class="fa fa-circle" aria-hidden="true"></i>  Just becuase I make your songs sound good, it doesn't mean they are actually good songs.</p>
       <p class="text-left"><i class="fa fa-circle" aria-hidden="true"></i>  I can not get you a record deal.</p>
