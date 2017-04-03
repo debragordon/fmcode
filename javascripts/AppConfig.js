@@ -3,19 +3,17 @@
 app.config(function($routeProvider) {
     $routeProvider
         .when('/home', {
-            templateUrl: 'partials/landing.html',
-            controller: 'LandingCtrl'
+            templateUrl: 'http://debragordon.tech/FMND/partials/landing.html'
         })
         .when('/about', {
-            templateUrl: 'partials/about.html',
+            templateUrl: 'http://debragordon.tech/FMND/partials/about.html',
             controller: 'AboutCtrl'
         })
         .when('/samples', {
-            templateUrl: 'partials/samples.html',
-            controller: 'SamplesCtrl'
+            templateUrl: 'http://debragordon.tech/FMND/partials/samples.html'
         })
         .when('/services', {
-            templateUrl: 'partials/services.html',
+            templateUrl: 'http://debragordon.tech/FMND/partials/services.html',
             controller: 'ServicesCtrl'
         })
         .otherwise('/home');
