@@ -11,7 +11,7 @@
         },
         {
             "lead": "You are a song saver.",
-            "detail": "I just wanted to let you know that I am extremely impressed with your work. I wish I had found you a year ago-- It would have saved me a lot of time, money and stress.",
+            "detail": "I just wanted to let you know that I am extremely impressed with your work. I wish I had found you a year ago - it would have saved me a lot of time, money and stress.",
             "songwriter": "R. Williams"
         },
         {
@@ -30,63 +30,63 @@
             "songwriter": "C. Welch"
         },
         {
-            "lead": "Main thing here.",
-            "detail": "I absolutely love it! It's exactly the style and attitude I was looking for. Awesome music and vocals! I can't believe how quickly I got my demo. I will definitely be sending more lyrics soon.",
+            "lead": "I absolutely love it!",
+            "detail": "It's exactly the style and attitude I was looking for. Awesome music and vocals! I can't believe how quickly I got my demo. I will definitely be sending more lyrics soon.",
             "songwriter": "C. Little"
         }
     ],
     "sliderImages": {
         "sliderImage0": {
             "image": "img/slider-01.jpg",
-            "caption": "Caption Info Here"
+            "caption": "Frank working on a radio commercial in the late 70’s"
         },
         "sliderImage1": {
             "image": "img/slider-02.jpg",
-            "caption": "Caption Info Here"
+            "caption": "Frank (on acoustic) backing up Tanya Tucker at a state fair"
         },
         "sliderImage2": {
             "image": "img/slider-03.jpg",
-            "caption": "Caption Info Here"
+            "caption": "With Brenda Lee on the Hee Haw television set"
         },
         "sliderImage3": {
             "image": "img/slider-04.jpg",
-            "caption": "Caption Info Here"
+            "caption": "A show with Michelle Wright in the late 90’s"
         },
         "sliderImage4": {
             "image": "img/slider-05.jpg",
-            "caption": "Caption Info Here"
+            "caption": "Frank (center, rear) before a show with Deborah Allen"
         },
         "sliderImage5": {
             "image": "img/slider-06.jpg",
-            "caption": "Caption Info Here"
+            "caption": "Frank fiddling around"
         },
         "sliderImage6": {
             "image": "img/slider-07.jpg",
-            "caption": "Caption Info Here"
+            "caption": "Michelle Wright ’97 tour of Canada"
         },
         "sliderImage7": {
             "image": "img/slider-08.jpg",
-            "caption": "Caption Info Here"
+            "caption": "Pickin’ the banjo with Ronnie McDowell"
         },
         "sliderImage8": {
             "image": "img/slider-09.jpg",
-            "caption": "Caption Info Here"
+            "caption": "Frank (left) recording with Ronnie McDowell, the Jordanaires, Scotty Moore, and D.J. Fontana"
         },
         "sliderImage9": {
             "image": "img/slider-10.jpg",
-            "caption": "Caption Info Here"
+            "caption": "Laying down acoustic guitar tracks"
         },
         "sliderImage10": {
             "image": "img/slider-11.jpg",
-            "caption": "Caption Info Here"
+            "caption": "Recording some dobro licks"
         },
         "sliderImage11": {
             "image": "img/slider-12.jpg",
-            "caption": "Caption Info Here"
+            "caption": "Debra Gordon sings a demo for a client"
         },
         "sliderImage12": {
             "image": "img/slider-13.jpg",
-            "caption": "Caption Info Here"
+            "caption": "Putting some bottom on a song"
         }
     }
 }

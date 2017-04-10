@@ -1,62 +1,74 @@
-<div class="container" data-ng-controller="ContactCtrl">
+<div class="container">
+<!--   <div class="row">
+    <h3>Next Steps | Connect With Frank</h3>
+    <div class="text-left">
+      <p><i class="fa fa-question fa-2x" aria-hidden="true"></i>  Not sure if you are ready to take the next step? Scroll through the testimonials below to learn more about the satisfied songwriters that have had their songs brought to life by Frank Michels and his Nashville Song Demo Service.</p>
+      <p><i class="fa fa-envelope fa-2x" aria-hidden="true"></i>  Ready to send in your songs? <a href="mailto:michels8@comcast.net">CLICK to email Frank today!</a></p>
+      <p><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>  You can also <a href="https://www.facebook.com/NashvilleSongDemo/"> connect on Facebook</a> to meet other songwriters that have chosen to work with Frank time and time again.</p>
+    </div>
+  </div> -->
   <div class="row">
-    <div class="container">
-      <div class="row">
-          <div class="col-sm-6 col-sm-offset-3">
-            <div class="well well-sm">
-              <div id="messages" class="alert alert-success" data-ng-show="messages" data-ng-bind="messages"></div>
-              <div data-ng-show="progress.active()" style="color: red; font-size: 50px;">Sending…</div>
-              <form name="contactFrank" class="form-horizontal" action="" method="post">
-                <fieldset>
-                  <!-- Name input-->
-                  <div class="form-group">
-                    <div class="col-md-12">
-                      <span class="label label-danger" data-ng-show="submitted && helpForm.name.$error.required">Required!</span>
-                      <input ng-model="name" id="name" name="name" type="text" placeholder="Your name" class="form-control" required>
+    <h3>Next Steps | Connect With Frank</h3>
+    <div class="col-sm-4">
+      <div class="card card2">
+        <div class="card-block">
+          <h3 class="card-title"><i class="fa fa-users fa-3x" aria-hidden="true"></i></h3>
+          <p class="card-text">Still not sure if you are ready to take the next step? Scroll through the testimonials below to learn more about the satisfied songwriters that have trusted the services of Frank Michels.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card card2">
+        <div class="card-block">
+          <h3 class="card-title"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i></h3>
+          <p class="card-text">If think you are ready to start the creative recording process, be sure you have visited the services page to understand all of your options. Once you have a good idea which service you will need, <a href="mailto:michels8@comcast.net" class="black">email Frank</a>.</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card card2">
+        <div class="card-block">
+          <h3 class="card-title"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></h3>
+          <p class="card-text">You can also connect to other songwriters that have chosen to work with Frank time and time again by visiting his <a href="https://www.facebook.com/NashvilleSongDemo/" class="black">facebook profile</a> and joining the community.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row testimonials bottomMarg2">
+    <div class="container content">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item" ng-class="{active:!$index}" ng-repeat="testimonial in testimonials">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="thumbnail adjust1">
+                  <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="caption">
+                      <p class="text-info lead adjust2">{{testimonial.lead}}</p>
+                      <p>{{testimonial.detail}}</p>
+                      <p class="note">{{testimonial.songwriter}}</p>
                     </div>
                   </div>
-
-                  <!-- Email input-->
-                  <div class="form-group">
-                    <div class="col-md-12">
-                      <span class="label label-danger" data-ng-show="submitted && helpForm.name.$error.required">Required!</span>
-                      <span class="label label-danger" data-ng-show="submitted && helpForm.$error.email">Invalid email!</span>
-                      <input ng-model="email" id="email" name="email" type="text" placeholder="Your email" class="form-control" required>
-                    </div>
-                  </div>
-
-                  <!-- Interested In -->
-                  <div class="form-group text-left">
-                    <label for="exampleSelect1" class="text-left">Interested in which service primarily</label>
-                    <select class="form-control" id="exampleSelect1">
-                      <option>Select One</option>
-                      <option>COMPLETE FULL BAND DEMO</option>
-                      <option>COMPLETE FULL BAND DEMO (NO VOCALS)</option>
-                      <option>BASIC DEMO</option>
-                      <option>BASIC DEMO (NO VOCALS)</option>
-                      <option>ADDITIONAL SERVICES</option>
-                    </select>
-                  </div>
-
-                  <!-- Message body -->
-                  <div class="form-group">
-                    <div class="col-md-12">
-                      <span class="label label-danger" data-ng-show="submitted && helpForm.name.$error.required">Required!</span>
-                      <textarea ng-model="message" class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="6" required></textarea>
-                    </div>
-                  </div>
-
-                  <!-- Form actions -->
-                  <div class="form-group">
-                    <div class="col-md-12 text-right">
-                      <button data-ng-disable="progress.active()" data-ng-click="submit(contactFrank)" type="submit" class="btn btn-warning">Submit</button>
-                    </div>
-                  </div>
-                </fieldset>
-              </form>
+                </div>
+              </div>
             </div>
           </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" data-target="#carousel-example-generic" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" data-target="#carousel-example-generic" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
       </div>
     </div>
   </div>
 </div>
+
+
+

@@ -122,9 +122,11 @@ ABOUT PAGE
 
 .circleSinger {
   border-radius:100%;
-  width: 15%;
+  width: 10%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
   margin-right: 20px;
+  margin-bottom: 5px;
+
 }
 
 .lines {
@@ -132,7 +134,7 @@ ABOUT PAGE
 }
 
 .yellow {
-color: #ec971f;
+color: #f0ad4e;
 }
 
 /**********
@@ -163,16 +165,17 @@ SERVICES PAGE
 
 hr {
   margin-left: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .price {
   font-family: Impact, Charcoal, sans-serif;
   background-color: #f60;
   color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   border-radius: 10px;
   border: 1px solid #f30;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
@@ -198,6 +201,10 @@ SPACING
   margin-bottom: 40px;
 }
 
+.bottomMarg3 {
+  margin-bottom: 10px;
+}
+
 .space {
  margin: 0px 0px 5px 0px;
  font-size: 1.2em;
@@ -221,11 +228,15 @@ img .card-img-top {
 .card {
   margin-bottom: 10px;
   background-color: #ffffff;
-  opacity: 0.8;
+  // opacity: 0.8;
   color: black;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
   padding: 10px;
+}
+
+.card2 {
+  margin: 10px;
 }
 
 .cardTestimonial {
@@ -247,14 +258,21 @@ img .card-img-top {
 }
 
 .card:hover {
-  color: #fff;
-  background-color: #ec971f;
+  // color: #fff;
+  background-color: #f0ad4e;
   border-color: #d58512;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
 }
 
 .card h3 a:hover {
-  color: #fff;
+  font-weight: bolder;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 1.1em;
 }
 
 .card-title, .card-text, .clickThis {
@@ -267,6 +285,26 @@ BUTTONS OVERRIDE
 
 .btn:focus,.btn:active {
    outline: none !important;
+}
+
+.left {
+  text-align: left;
+}
+
+.terms {
+  color: black;
+}
+
+.terms:hover {
+  color: black;
+}
+
+.terms:visited {
+  color: black;
+}
+
+.terms:active {
+  color: black;
 }
 
 /********************
@@ -342,29 +380,32 @@ BUTTONS - Primary
 ********************/
 .btn-primary {
   color: #fff;
-  background: #333;
-  border-color: #24241e;
+  background: black;
+  border-color: black;
 }
 
 .btn-primary:focus,
 .btn-primary.focus {
   color: #fff;
-  background: #3d4044;
-  border-color: #24241e;
+  background: black;
+  border-color: black;
+
 }
 
 .btn-primary:hover {
   color: #fff;
-  background: #3d4044;
-  border-color: #24241e;
+  background: black;
+  border-color: black;
+
 }
 
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: #fff;
-  background: #3d4044;
-  border-color: #24241e;
+  background: black;
+  border-color: black;
+
 }
 .btn-primary:active:hover,
 .btn-primary.active:hover,
@@ -376,8 +417,9 @@ BUTTONS - Primary
 .btn-primary.active.focus,
 .open > .dropdown-toggle.btn-primary.focus {
   color: #fff;
-  background: #3d4044;
-  border-color: #24241e;
+  background: black;
+  border-color: black;
+
 }
 
 .btn-primary:active,
@@ -395,8 +437,9 @@ fieldset[disabled] .btn-primary:focus,
 .btn-primary.disabled.focus,
 .btn-primary[disabled].focus,
 fieldset[disabled] .btn-primary.focus {
-  background: #3d4044;
-  border-color: #24241e;
+  background: black;
+  border-color: black;
+
 }
 
 .btn-primary .badge {
@@ -413,9 +456,8 @@ CAROUSEL
 }
 
 .carousel-caption {
-  // background-color: rgba(0, 0, 0, 0.1);
   padding-top: 0px;
-  text-shadow: 0 1px 5px rgba(0,0,0,.9);
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
 }
 
 /********************
@@ -429,8 +471,33 @@ FONTS OVERRIDES
   font-size: .6em;
 }
 
+.black {
+  color: black;
+}
+
+.black:hover {
+  color: black;
+}
+
 .mb-0 a {
   color: black;
+}
+
+.lead {
+  font-size: 35px;
+}
+
+.glyphicon.glyphicon-chevron-left,
+.glyphicon.glyphicon-chevron-right {
+  font-size: 50px;
+}
+
+.glyphicon.glyphicon-chevron-right {
+  margin-left: -20px;
+}
+
+.glyphicon-chevron-right:before {
+  margin-left: -20px;
 }
 
 .none {
@@ -611,15 +678,17 @@ SOUNDCLOUD OVERRIDES
 CAROUSEL
 ********************/
 .carousel-indicators li {
-  background-color: #ec971f;
+  background-color: #f0ad4e;
   border: 1px solid #d58512;
   margin: 2px;
 }
 
-.carousel-caption {
-  padding-top: 0px;
-  text-shadow: 0 1px 5px rgba(0,0,0,.9);
-}
+// .carousel-caption {
+//   padding-top: 0px;
+//   text-shadow: 0 1px 5px rgba(0,0,0,.9);
+//   background: rgb(0, 0, 0);
+//   background: rgba(0, 0, 0, .5);
+// }
 
 /*****************
 Testimonial (cam with plug-in code)
@@ -632,7 +701,7 @@ Testimonial (cam with plug-in code)
 }
 
 .testimonials .lead {
-  color: #ec971f;
+  color: #f0ad4e;
 }
 
 .content {
@@ -640,25 +709,25 @@ Testimonial (cam with plug-in code)
 }
 
 .adjust1 {
-  float:left;
+  float: left;
   width:100%;
   margin-bottom:0;
 }
 
 .adjust2 {
-  margin:0; }
+  margin: 0; }
 
 .carousel-indicators li {
   border :1px solid #ccc;
 }
 
 .carousel-control {
-  color:#ec971f;
-  width:5%;
+  color:#d58512;
+  width: 5%;
 }
 
 .carousel-control:hover, .carousel-control:focus {
-  color:#d58512;
+  color:#f0ad4e;
 }
 
 .carousel-control.left, .carousel-control.right {
@@ -689,6 +758,33 @@ Testimonial (cam with plug-in code)
   color: white;
   padding-left: 40px;
   padding-right: 40px;
+}
+
+/******************
+hover Caption
+******************/
+
+.imgCaption {
+  position: absolute;
+  //top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  height: 50px;
+  -webkit-transition: visibility opacity 0.2s;
+}
+
+#pics:hover .imgCaption {
+  visibility: visible;
+  opacity: 1;
+}
+
+.words {
+  padding-top: 4px;
 }
 
 /******************
