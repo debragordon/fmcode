@@ -70,7 +70,7 @@ body {
 LANDING PAGE
 ********************/
 .landing {
-  background-image: url("/public_html/img/home-nowords.png");
+  background-image: url("http://nashville-songdemo.com/public_html/img/home-nowords.png");
   width: 100%;
   min-height: 100%;
   margin-bottom: -100px;
