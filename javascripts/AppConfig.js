@@ -13,15 +13,13 @@ app.config(function($routeProvider) {
             templateUrl: 'partials/samples.html'
         })
         .when('/gallery', {
-            templateUrl: 'partials/gallery.html',
-            controller: 'GalleryCtrl'
+            templateUrl: 'partials/gallery.html'
         })
         .when('/services', {
             templateUrl: 'partials/services.html'
         })
         .when('/contact', {
-            templateUrl: 'partials/contact.html',
-            controller: 'ContactCtrl'
+            templateUrl: 'partials/contact.html'
         })
         .otherwise('/home');
 });
